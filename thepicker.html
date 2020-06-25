@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+
+<!--Bootstrap-->  
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+
   <head>
    <meta charset='utf-8'>
    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster&display=swap" rel="stylesheet">
@@ -8,7 +13,6 @@
     <style>
         html{
             border:1px solid black;
-            text-align:center;
         }
        h1{
           font-size:2rem;
@@ -25,69 +29,66 @@
           margin:0;
           color:black;
         }
+        sitemap{
+          position:relative;
+          top:38px;
+          width:100%;
+          background-color:azure;
+          display:block;
+        }
         #korea, #cafe:active{
             text-decoration:none;
         }
-        body{
-            margin-left:5%;
-            margin-right:5%;
-        }
-        .row{
-            display:flex;
-            flex-direction:column;
-            width:45%;
-        }
-        .secondrow{
-            display:flex;
-            flex-direction: row;
-        }
-        p{
-            text-align: left;
-            position:relative;
-            left:720px;
-            top: -720px;
-        }
-        pre{
-            position:relative;
-            left:45px;
-            top: -650px;
-            font-size:1.2rem;
+        main{
+            text-align: center;
         }
     </style>
   </head>
   <body>
-       <a href="korea.html"><h1><strong>LOWTRASH</strong></h1></a>
-       <main>
-        <br>
-        <img src="thepicker.png" height=150 alt="더 피커 이미지">
-        <br>
+    <a href="korea.html"><h1><strong>LOWTRASH</strong></h1></a>
+    <sitemap>
+           <a id='korea' href="korea.html">KOREA</a>
+           >
+           <a id='cafe' href="koreacafe.html">CAFE</a>
+           >
+           THE PICKER
+    </sitemap>       
+    <main>
+        <img src="korea/thepicker.png" height=150>
+        <br>   
         <a href="https://thepicker.net/" target="_blank">
                  <img src="internet.png" height=30 alt='웹페이지'>
         </a>
-        <a href="https://www.instagram.com/thepicker/" target="_blank">
+        <a href="https://www.instagram.com/thepiㄴcker/" target="_blank">
                  <img src="instagram.jpg" alt="인스타이미지" height=30>
         </a>
+        <br>
+       
         <br>
         <br>
         주소: 서울시 성동구 왕십리로 115, 헤이그라운드 9층
         <h2>ZERO WASTE LIFESTYLE STORE IN KOREA</h2>
-           <div class='row'>
-            <img src='thepicker1.jpg' style = "float: left" height=400 align=top alt="더피커실내">
-            <div class='secondrow'>
-                <img src="thepickerproducts.jpg" style = "float: left" alt="더피커제품" height=300 align=top>
-                <img src="thepickerproduct1.jpg" height=300 alt="">
-            </div>
-           </div>
-        <p><strong>더 피커는 국내최초 제로웨이스트 플랫폼</strong>으로, 포장 폐기물 감소를 중심으로
-        다양한 쓰레기의 발생을 관찰하고 줄여 나갑니다. <br>지속가능한 환경이 자연스럽게 존재하던 과거와 끊임 없이 소통하며 자원의 순환과 건강한 소비문화의 회복에 힘씁니다.
-        <br> 뿐만 아니라  생활 전반에서 쓰레기를 줄일 수 있도록 <strong>다회용 혹은 친환경 제품</strong>들을 판매하고 있습니다.</p>
-        <pre>
-            관련 기사: <a href="https://brunch.co.kr/@thefirstmedia/110">더 피커,쓰레기는 두고 가세요</a>
-                      <a href="http://m.designdb.com/index.html?menuno=1057&bbsno=30168&boardno=584&ztag=rO0ABXQANDxjYWxsIHR5cGU9ImJvYXJkIiBubz0iNTg0IiBza2luPSJwaG90b19iYnMiPjwvY2FsbD4%3D&siteno=15&act=view">제로 웨이스트 플랫폼 더 피커</a>
-        </pre>
-         
+        <p><strong>더 피커는 국내최초 제로웨이스트 플랫폼</strong>으로, 포장 폐기물 감소를 중심으로 다양한 쓰레기의 발생을 관찰하고 줄여 나갑니다. <br>지속가능한 환경이 자연스럽게 존재하던 과거와 끊임 없이 소통하며 자원의 순환과 건강한 소비문화의 회복에 힘씁니다.</p>
+        <div class='row'>
+          <div class='col-xs-5'>    
+            <img src='korea/thepicker1.jpg' height=500; alt="더피커실내">
+          </div>    
+          <div class='col-xs-3'>
+           <img src="korea/thepickerproducts.jpg" height=500 alt="더 피커 이미지">
+          </div>
+          <div class='col-xs-4'>
+           <img src="korea/thepickerproduct1.jpg" height =500 alt='더 피커 제품1'>
+          </div>
+        </div>
+       <h3>관련정보</h3>
+       <p><a href='http://m.segye.com/view/20190206001570' target="_blank"> 국내 제로 웨이스트 1호 매장 '더피커' 대표 인터뷰 [우리의 환경은 평등합니까]_세계일보</a></p>
+       <p><a href='https://brunch.co.kr/@thefirstmedia/110' target="_blank"> 더 피커, 쓰레기는 두고 가세요_브런치</a></p>
+       <p><a href='https://www.youtube.com/watch?v=QHw9JDS8iS4' target="_blank"> [안쓰고 산다] 포장이 없는 잡화점, '제로웨이스트숍 더피커' 편. 환경부 유튜브</a></p>
+       
+        
+        
       </main>
-
-
+ 
+  
   </body>
 </html>
